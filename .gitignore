@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/.vs/GEV Remoting/DesignTimeBuild
+/src/.vs/GEV Remoting/v15/Server/sqlite3
+/src/.vs/GEV Remoting/v15/.suo
+/src/GEV Remoting/bin/Debug
+/src/GEV Remoting/obj
+/Test/bin/Debug
+/Test/obj/Debug
