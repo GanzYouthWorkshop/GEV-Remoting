@@ -44,14 +44,14 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestInterface.cs" />
-    <Compile Include="TestService.cs" />
+    <Compile Include="SampleInterface.cs" />
+    <Compile Include="SampleService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\src\GEV Remoting\GEV Remoting.csproj">
+    <ProjectReference Include="..\GEV Remoting\GEV Remoting.csproj">
       <Project>{fcf4d587-c0b6-4f16-8c15-12368b553b82}</Project>
       <Name>GEV Remoting</Name>
     </ProjectReference>

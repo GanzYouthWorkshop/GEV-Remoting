@@ -5,9 +5,9 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEV Remoting", "GEV Remoting\GEV Remoting.csproj", "{FCF4D587-C0B6-4F16-8C15-12368B553B82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEV Common Library (.NET Framework)", "..\..\GEV-Common-Library\src\GEV Common Library\GEV Common Library (.NET Framework).csproj", "{CB307FCC-19FE-4138-BEAF-20FEC5D9D6B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEV Common Library", "..\modules\GEV-Common-Library\src\GEV Common Library\GEV Common Library.csproj", "{CB307FCC-19FE-4138-BEAF-20FEC5D9D6B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "..\Test\Test.csproj", "{9C2F83F8-8827-4D4A-AFE0-BCBDC99F205C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remoting Sample", "Remoting Sample\Remoting Sample.csproj", "{9C2F83F8-8827-4D4A-AFE0-BCBDC99F205C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

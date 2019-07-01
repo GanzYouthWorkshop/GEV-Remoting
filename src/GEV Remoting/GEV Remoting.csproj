@@ -49,15 +49,15 @@
     <Compile Include="ServiceSubscriber.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\GEV-Common-Library\src\GEV Common Library\GEV Common Library %28.NET Framework%29.csproj">
-      <Project>{CB307FCC-19FE-4138-BEAF-20FEC5D9D6B7}</Project>
-      <Name>GEV Common Library %28.NET Framework%29</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Scripting">
       <Version>3.1.0</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\modules\GEV-Common-Library\src\GEV Common Library\GEV Common Library.csproj">
+      <Project>{cb307fcc-19fe-4138-beaf-20fec5d9d6b7}</Project>
+      <Name>GEV Common Library</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
