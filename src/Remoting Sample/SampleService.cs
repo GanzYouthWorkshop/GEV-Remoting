@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Test
 {
-    public class TestService : TestInterface
+    public class SampleService : SampleInterface
     {
         public int Add(int a, int b)
         {

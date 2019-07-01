@@ -1,0 +1,3 @@
+[submodule "modules\\GEV-Common-Library"]
+	path = modules\\GEV-Common-Library
+	url = https://github.com/GanzYouthWorkshop/GEV-Common-Library

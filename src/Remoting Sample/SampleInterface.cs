@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Test
 {
-    public interface TestInterface : IRemoteService
+    public interface SampleInterface : IRemoteService
     {
         int Add(int a, int b);
         void LogOnServer();

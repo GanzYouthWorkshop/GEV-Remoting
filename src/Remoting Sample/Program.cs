@@ -12,10 +12,10 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            TestService server = new TestService();
+            SampleService server = new SampleService();
             RemoteService service = new RemoteService(server, 5500);
 
-            TestInterface client = RemoteService.SubscribeToRemoteService<TestInterface>("127.0.0.1", 5500);
+            SampleInterface client = RemoteService.SubscribeToRemoteService<SampleInterface>("127.0.0.1", 5500);
 
             Console.WriteLine("Server from local call is calculating 1+2= {0}", server.Add(1, 2));
             Console.WriteLine("Server from remote call calculating 1+2= {0}", client.Add(1, 2));
